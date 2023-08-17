@@ -1,0 +1,313 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Montserrat&family=Open+Sans:wght@500&family=Oswald&family=Poppins:wght@700&family=Raleway&family=Roboto+Mono&family=Roboto:wght@100;500;900&display=swap');
+
+
+
+.upload-background{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+
+.image-upload{
+
+
+}
+
+
+.image{
+    border: 2px solid rgb(0, 208, 255);
+    width: 50%;
+    height: 350px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 25px;
+    text-transform: capitalize;
+    align-items: center;
+    text-align: center;
+}
+.image h1 {
+    text-transform: capitalize;
+    color: rgb(255, 255, 255);
+    font-family: 'Geologica', sans-serif;
+
+    -webkit-text-fill-color: transparent;
+    animation-name: sample;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes sample {
+    0% {
+     
+    }
+
+    50%{
+
+        background: #25CC0F;
+background: -webkit-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+background: -moz-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+
+    70%{
+        background: #FFFF00;
+background: -webkit-linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+background: -moz-linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+background: linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+    }
+    100% {
+        background: #B8E1FC;
+        background: -webkit-radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+        background: -moz-radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+        background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+        -webkit-background-clip: text;
+    }
+}
+
+
+
+.image input[type="file"]{
+display: none;
+
+}
+
+
+.image label{
+
+    color: white;
+    height: 60px;
+    width: 100px;
+    background-color: #00eaff;
+    font-size: 1.3rem;
+    padding: 7px;
+    border-radius: 7px;
+    text-transform: capitalize;
+    font-family: 'Geologica', sans-serif;
+    align-items: center;
+    text-align: center;
+    
+}
+
+
+.material-icons{
+    font-size: 1.3rem;
+    color: black;
+    margin: 5px;
+    
+}
+.image input[type="text"]{
+ border: none;
+ outline: none;
+background-color:transparent;
+border: 2px solid pink;
+color: white;
+text-transform: capitalize;
+padding: 11px;
+border-radius: 10px;
+margin: 30px;
+    
+    }
+
+
+    .image input[type="text"]::placeholder{
+
+        text-transform: capitalize;
+        font-weight: bold;
+
+    }
+
+
+.image select{
+
+        outline: none;
+        border: none;
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        border:2px solid wheat;
+        padding: 10px 20px 10px 20px;
+        border-radius: 20px;
+   
+        font-size: 1.5rem;
+        text-transform: capitalize;
+
+    } 
+
+
+    .image option{
+        color: aqua;
+        text-transform: capitalize;
+
+    }
+
+
+    .image button{
+
+        outline: none;
+        border: none;
+        padding: 7px;
+        text-transform: capitalize;
+        background-color: rgb(255, 0, 0);
+        color: white;
+        font-weight: bold;
+        border-radius: 7px;
+
+    }
+
+
+    /* video upload this row  class */
+
+
+    .video{
+        border: 2px solid rgb(0, 208, 255);
+        width: 50%;
+        height: 320px;
+        margin: auto;
+        margin-top: 50px;
+        border-radius: 25px;
+        text-transform: capitalize;
+        align-items: center;
+        text-align: center;
+    }
+    .video h1 {
+        text-transform: capitalize;
+        color: rgb(255, 255, 255);
+        font-family: 'Geologica', sans-serif;
+    
+        -webkit-text-fill-color: transparent;
+        animation-name: sample;
+        animation-duration: 5s;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes sample {
+        0% {
+         
+        }
+    
+        50%{
+    
+            background: #25CC0F;
+    background: -webkit-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    background: -moz-linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    background: linear-gradient(to bottom right, #25CC0F 0%, #9E3212 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+    
+        70%{
+            background: #FFFF00;
+    background: -webkit-linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+    background: -moz-linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+    background: linear-gradient(to left, #FFFF00 0%, #05C1FF 50%, #FFFF00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
+        100% {
+            background: #B8E1FC;
+            background: -webkit-radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+            background: -moz-radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+            background: radial-gradient(circle farthest-corner at center center, #B8E1FC 0%, #231421 100%);
+            -webkit-background-clip: text;
+        }
+    }
+    
+    
+    
+    .video input[type="file"]{
+    display: none;
+    
+    }
+    
+    
+    .video label{
+    
+        color: white;
+        height: 60px;
+        width: 100px;
+        background-color: #00eaff;
+        font-size: 1.3rem;
+        padding: 7px;
+        border-radius: 7px;
+        text-transform: capitalize;
+        font-family: 'Geologica', sans-serif;
+        align-items: center;
+        text-align: center;
+        
+    }
+    
+    
+    .material-icons{
+        font-size: 1.3rem;
+        color: black;
+        margin: 5px;
+        
+    }
+    .video input[type="text"]{
+     border: none;
+     outline: none;
+    background-color:transparent;
+    border: 2px solid pink;
+    color: white;
+    text-transform: capitalize;
+    padding: 11px;
+    border-radius: 10px;
+    margin: 30px;
+        
+        }
+    
+    
+        .video input[type="text"]::placeholder{
+    
+            text-transform: capitalize;
+            font-weight: bold;
+    
+        }
+    
+    
+    .video select{
+    
+            outline: none;
+            border: none;
+            background-color: rgb(0, 0, 0);
+            color: rgb(255, 255, 255);
+            border:2px solid wheat;
+            padding: 10px 20px 10px 20px;
+            border-radius: 20px;
+       
+            font-size: 1.5rem;
+            text-transform: capitalize;
+    
+        } 
+    
+    
+        .video option{
+            color: aqua;
+            text-transform: capitalize;
+    
+        }
+    
+    
+    
+        .video button{
+
+            outline: none;
+            border: none;
+            padding: 7px;
+            text-transform: capitalize;
+            background-color: rgb(255, 0, 0);
+            color: white;
+            font-weight: bold;
+            border-radius: 7px;
+        }

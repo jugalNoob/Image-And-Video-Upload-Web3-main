@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica&family=Open+Sans:wght@500&family=Oswald&family=Poppins:wght@700&family=Raleway&family=Roboto+Mono&family=Roboto:wght@100;500;900&display=swap');
+
+
+
+*{
+    padding: 0;
+    box-sizing: 0;
+    box-sizing: content-box;
+}
+
+.homebackgorund{
+    background-image: linear-gradient(to right, #000000, #000000, #000000, #000000, #000000, #1c1518, #2e222c, #3e3244, #515c82, #3c90be, #00c8e6, #00ffef);
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+.flex-home{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.head-one{
+
+    font-size: 1.2rem;
+    color: rgb(255, 255, 255);
+    text-transform: capitalize;
+    margin-left: 20px;
+    font-weight: bold;
+    text-shadow: 3px 3px 7px gray;
+}
+
+
+.home-img{
+
+    margin-left: 20px;
+    box-shadow: 5px 5px 10px white;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.home-img img{
+    width: 70px;
+    height: 70px;
+}
+
+.nav{
+
+    display: flex;
+    margin-left: 140px;
+}
+
+.nav a{
+    text-transform: capitalize;
+    
+    color: white;
+    font-weight: bold;
+    margin: 20px;
+    font-size: 1.1rem;
+    padding: 3px;
+}
+
+
+.flex-second{
+    display: flex;
+    align-items: center;
+    text-align:center;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.head-second h1{
+
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    background: #B5CFAE;
+    background: repeating-radial-gradient(ellipse farthest-side at center center, #B5CFAE 38%, #FF0F0F 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.head-second h2{
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 900;
+    background: #B5CFAE;
+    background: repeating-radial-gradient(ellipse farthest-side at center center, #B5CFAE 38%, #FF0F0F 67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.img-scond{
+
+}
+
+.img-scond img{
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+}
+
+
+
+.head-second a{
+
+    color: rgb(255, 255, 255)!important;
+  
+    padding: 7px 25px 7px 25px;
+    margin: 20px;
+    border-radius: 10px;
+background-color: rgb(0, 200, 255);
+text-decoration: none;
+font-weight: bold;
+
+}
